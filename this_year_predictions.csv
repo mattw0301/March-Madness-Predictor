@@ -1,0 +1,365 @@
+TEAM,PREDICTED_MADE_NCAA,PREDICTED_PROB
+Marquette,1,1.0
+Clemson,1,1.0
+Michigan,1,1.0
+Duke,1,1.0
+Auburn,1,1.0
+Kansas,1,1.0
+North Carolina,1,1.0
+Oregon,1,1.0
+St. John's,1,1.0
+Maryland,1,1.0
+Michigan St.,1,1.0
+Florida,1,1.0
+Tennessee,1,1.0
+Houston,1,1.0
+Gonzaga,1,1.0
+Texas Tech,1,1.0
+Iowa St.,1,1.0
+Arizona,1,0.99
+Mississippi St.,1,0.99
+Colorado St.,1,0.99
+Wisconsin,1,0.99
+Missouri,1,0.99
+BYU,1,0.99
+Alabama,1,0.99
+Louisville,1,0.99
+Illinois,1,0.99
+Baylor,1,0.99
+Saint Mary's,1,0.99
+Arkansas,1,0.99
+UCLA,1,0.99
+Connecticut,1,0.99
+Bryant,1,0.98
+Oklahoma,1,0.98
+Georgia,1,0.98
+Kentucky,1,0.98
+Vanderbilt,1,0.98
+Drake,1,0.98
+Purdue,1,0.98
+New Mexico,1,0.97
+Texas A&M,1,0.97
+VCU,1,0.97
+San Diego St.,1,0.97
+McNeese St.,1,0.97
+Memphis,1,0.97
+Creighton,1,0.97
+Utah St.,1,0.96
+Lipscomb,1,0.96
+Xavier,1,0.96
+UC San Diego,1,0.96
+Montana,1,0.95
+Mississippi,1,0.95
+Liberty,1,0.94
+Norfolk St.,1,0.94
+Mount St. Mary's,1,0.94
+SIU Edwardsville,1,0.94
+Troy,1,0.93
+American,1,0.93
+Akron,1,0.93
+Robert Morris,1,0.93
+Grand Canyon,1,0.93
+High Point,1,0.93
+Wofford,1,0.91
+Nebraska Omaha,1,0.91
+Yale,1,0.91
+Saint Francis,1,0.9
+UNC Wilmington,1,0.9
+Alabama St.,1,0.89
+Texas,1,0.85
+West Virginia,0,0.15
+Boise St.,0,0.13
+George Mason,0,0.09
+UAB,0,0.09
+Villanova,0,0.09
+SMU,0,0.09
+UC Irvine,0,0.08
+Santa Clara,0,0.08
+St. Thomas,0,0.08
+San Francisco,0,0.07
+Delaware,0,0.07
+VMI,0,0.07
+Cal Poly,0,0.07
+Ohio St.,0,0.06
+Cincinnati,0,0.06
+Chattanooga,0,0.06
+Northern Colorado,0,0.06
+North Dakota St.,0,0.06
+Dayton,0,0.05
+Indiana,0,0.05
+Bradley,0,0.05
+North Texas,0,0.05
+Iowa,0,0.05
+Youngstown St.,0,0.05
+Texas A&M Corpus Chris,0,0.04
+Jacksonville St.,0,0.04
+Pepperdine,0,0.04
+Old Dominion,0,0.04
+Wake Forest,0,0.04
+North Alabama,0,0.04
+Northwestern,0,0.04
+Arkansas St.,0,0.04
+Iona,0,0.04
+Samford,0,0.04
+UCF,0,0.03
+Navy,0,0.03
+Weber St.,0,0.03
+Butler,0,0.03
+Valparaiso,0,0.03
+Central Connecticut,0,0.03
+USC,0,0.03
+Utah Valley,0,0.03
+Milwaukee,0,0.03
+Charleston,0,0.03
+Furman,0,0.03
+Illinois St.,0,0.03
+Belmont,0,0.03
+Coastal Carolina,0,0.02
+Miami OH,0,0.02
+Radford,0,0.02
+UC Riverside,0,0.02
+UC Santa Barbara,0,0.02
+Cal St. Northridge,0,0.02
+Oakland,0,0.02
+Bucknell,0,0.02
+Winthrop,0,0.02
+Drexel,0,0.02
+Quinnipiac,0,0.02
+Louisiana,0,0.02
+Grambling St.,0,0.02
+North Carolina Central,0,0.02
+Lindenwood,0,0.02
+TCU,0,0.02
+Fresno St.,0,0.02
+South Dakota,0,0.02
+Idaho,0,0.02
+Charlotte,0,0.02
+Tennessee St.,0,0.02
+Oregon St.,0,0.02
+Saint Joseph's,0,0.02
+UNC Asheville,0,0.02
+Wright St.,0,0.02
+Colgate,0,0.02
+Bethune Cookman,0,0.02
+Stanford,0,0.02
+La Salle,0,0.01
+Queens,0,0.01
+Hampton,0,0.01
+Ohio,0,0.01
+Nebraska,0,0.01
+Kansas St.,0,0.01
+Penn St.,0,0.01
+Binghamton,0,0.01
+Ball St.,0,0.01
+FIU,0,0.01
+North Florida,0,0.01
+Sacred Heart,0,0.01
+Portland St.,0,0.01
+Northern Iowa,0,0.01
+Dartmouth,0,0.01
+New Mexico St.,0,0.01
+UTEP,0,0.01
+San Jose St.,0,0.01
+Merrimack,0,0.01
+Montana St.,0,0.01
+Southern Illinois,0,0.01
+Florida Gulf Coast,0,0.01
+Towson,0,0.01
+Western Kentucky,0,0.01
+Washington St.,0,0.01
+South Carolina St.,0,0.01
+Wagner,0,0.01
+Cal St. Fullerton,0,0.01
+South Alabama,0,0.01
+Oklahoma St.,0,0.01
+St. Bonaventure,0,0.01
+Longwood,0,0.01
+Vermont,0,0.01
+Cal St. Bakersfield,0,0.01
+Manhattan,0,0.01
+Maine,0,0.01
+Incarnate Word,0,0.01
+Rutgers,0,0.01
+Utah,0,0.01
+Marist,0,0.01
+Charleston Southern,0,0.01
+Lafayette,0,0.01
+Southern Miss,0,0.01
+Tennessee Martin,0,0.01
+Kennesaw St.,0,0.0
+USC Upstate,0,0.0
+Canisius,0,0.0
+NJIT,0,0.0
+Southern Indiana,0,0.0
+Mercyhurst,0,0.0
+Fairfield,0,0.0
+Middle Tennessee,0,0.0
+Stetson,0,0.0
+Boston College,0,0.0
+East Tennessee St.,0,0.0
+Rhode Island,0,0.0
+Duquesne,0,0.0
+Cornell,0,0.0
+Kent St.,0,0.0
+South Dakota St.,0,0.0
+Louisiana Tech,0,0.0
+Temple,0,0.0
+Cal Baptist,0,0.0
+Sam Houston St.,0,0.0
+Loyola Marymount,0,0.0
+Wichita St.,0,0.0
+Seattle,0,0.0
+Davidson,0,0.0
+Virginia Tech,0,0.0
+Tulane,0,0.0
+California,0,0.0
+Green Bay,0,0.0
+Holy Cross,0,0.0
+Stonehill,0,0.0
+Niagara,0,0.0
+Florida A&M,0,0.0
+Southern Utah,0,0.0
+Texas A&M Commerce,0,0.0
+Stony Brook,0,0.0
+Sacramento St.,0,0.0
+Detroit Mercy,0,0.0
+Northern Illinois,0,0.0
+New Orleans,0,0.0
+Central Arkansas,0,0.0
+Le Moyne,0,0.0
+Buffalo,0,0.0
+Morgan St.,0,0.0
+North Carolina A&T,0,0.0
+Bellarmine,0,0.0
+Western Illinois,0,0.0
+West Georgia,0,0.0
+Louisiana Monroe,0,0.0
+Western Carolina,0,0.0
+Massachusetts,0,0.0
+Texas St.,0,0.0
+South Florida,0,0.0
+Indiana St.,0,0.0
+Idaho St.,0,0.0
+Princeton,0,0.0
+Missouri St.,0,0.0
+Southeastern Louisiana,0,0.0
+Brown,0,0.0
+Miami FL,0,0.0
+East Carolina,0,0.0
+Illinois Chicago,0,0.0
+Jacksonville,0,0.0
+Northeastern,0,0.0
+Southeast Missouri St.,0,0.0
+Abilene Christian,0,0.0
+Wyoming,0,0.0
+Providence,0,0.0
+UNC Greensboro,0,0.0
+Syracuse,0,0.0
+DePaul,0,0.0
+N.C. State,0,0.0
+Florida Atlantic,0,0.0
+Saint Louis,0,0.0
+Washington,0,0.0
+George Washington,0,0.0
+Lamar,0,0.0
+Cleveland St.,0,0.0
+Purdue Fort Wayne,0,0.0
+Eastern Kentucky,0,0.0
+Rice,0,0.0
+UTSA,0,0.0
+James Madison,0,0.0
+Murray St.,0,0.0
+Appalachian St.,0,0.0
+Marshall,0,0.0
+Nicholls St.,0,0.0
+Florida St.,0,0.0
+Virginia,0,0.0
+Georgetown,0,0.0
+UNLV,0,0.0
+Georgia Tech,0,0.0
+UC Davis,0,0.0
+North Dakota,0,0.0
+UT Arlington,0,0.0
+Tulsa,0,0.0
+Harvard,0,0.0
+Notre Dame,0,0.0
+Hawaii,0,0.0
+Loyola Chicago,0,0.0
+Elon,0,0.0
+UMKC,0,0.0
+Northwestern St.,0,0.0
+Central Michigan,0,0.0
+LSU,0,0.0
+Hofstra,0,0.0
+Nevada,0,0.0
+Minnesota,0,0.0
+Richmond,0,0.0
+Campbell,0,0.0
+William & Mary,0,0.0
+Southern,0,0.0
+Fordham,0,0.0
+Seton Hall,0,0.0
+Siena,0,0.0
+Denver,0,0.0
+Gardner Webb,0,0.0
+Houston Christian,0,0.0
+UMass Lowell,0,0.0
+Presbyterian,0,0.0
+Monmouth,0,0.0
+Evansville,0,0.0
+Little Rock,0,0.0
+Jackson St.,0,0.0
+Northern Arizona,0,0.0
+Georgia St.,0,0.0
+Georgia Southern,0,0.0
+Northern Kentucky,0,0.0
+Portland,0,0.0
+Toledo,0,0.0
+UT Rio Grande Valley,0,0.0
+Stephen F. Austin,0,0.0
+Texas Southern,0,0.0
+Tarleton St.,0,0.0
+San Diego,0,0.0
+Saint Peter's,0,0.0
+Tennessee Tech,0,0.0
+Austin Peay,0,0.0
+Pacific,0,0.0
+Eastern Washington,0,0.0
+LIU,0,0.0
+Western Michigan,0,0.0
+Albany,0,0.0
+Mercer,0,0.0
+Eastern Michigan,0,0.0
+Bowling Green,0,0.0
+Rider,0,0.0
+Fairleigh Dickinson,0,0.0
+Howard,0,0.0
+Penn,0,0.0
+Lehigh,0,0.0
+Columbia,0,0.0
+Oral Roberts,0,0.0
+Utah Tech,0,0.0
+Air Force,0,0.0
+Colorado,0,0.0
+Loyola MD,0,0.0
+Long Beach St.,0,0.0
+Army,0,0.0
+South Carolina,0,0.0
+Pittsburgh,0,0.0
+Arizona St.,0,0.0
+Eastern Illinois,0,0.0
+IU Indy,0,0.0
+Delaware St.,0,0.0
+UMBC,0,0.0
+Boston University,0,0.0
+Morehead St.,0,0.0
+Alcorn St.,0,0.0
+New Hampshire,0,0.0
+Prairie View A&M,0,0.0
+Alabama A&M,0,0.0
+Maryland Eastern Shore,0,0.0
+The Citadel,0,0.0
+Chicago St.,0,0.0
+Coppin St.,0,0.0
+Arkansas Pine Bluff,0,0.0
+Mississippi Valley St.,0,0.0
