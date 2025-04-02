@@ -123,7 +123,7 @@ def predict_this_year(model, new_csv, training_columns):
 def main():
     # File paths (modify as needed)
     historical_csv = "cbb.csv"            # Past data
-    this_year_csv  = "cbb25.csv"  # This year's data
+    this_year_csv  = "this_year_cbb.csv"  # This year's data
     
     # Train a model on historical data
     print("[INFO] Training model on historical data...")
