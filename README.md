@@ -23,7 +23,7 @@ Same as historical but without POSTSEASON.
 ## Output
 * Model accuracy metrics on historical data
 * Feature importance visualization
-* Top 20 teams most likely to make the tournament
+* Top 68 teams most likely to make the tournament
 * Full predictions in 'this_year_predictions.csv'
 ## Model Performance
 The Random Forest model evaluates its performance on a 20% test split of historical data, providing:

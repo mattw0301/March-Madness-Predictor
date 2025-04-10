@@ -133,10 +133,10 @@ def main():
     print("[INFO] Predicting for this year's data...")
     this_year_results = predict_this_year(rf_model, this_year_csv, train_cols)
     
-    # Print the top 20 teams explicitly with name + predicted probability
-    top20 = this_year_results.head(20)
-    print("\n[INFO] Top 20 teams most likely to make the NCAA:")
-    for idx, row in top20.iterrows():
+    # Print the top 68 teams explicitly with name + predicted probability
+    top68 = this_year_results.head(68)
+    print("\n[INFO] Top 68 teams most likely to make the NCAA:")
+    for idx, row in top68.iterrows():
         print(f"{row['TEAM']}: "
               f"Predicted_Made_NCAA={row['PREDICTED_MADE_NCAA']} "
               f"(Prob={row['PREDICTED_PROB']:.2f})")
