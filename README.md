@@ -7,7 +7,9 @@ Built using `scikit-learn` and a Random Forest classifier, this tool allows you 
 - Train a model on historical data (`cbb.csv`)
 - Predict tournament qualification for the current season (`this_year_cbb.csv`)
 
-Note: Provided data is from 2013-2024.
+Provided Data: 
+* `cbb.csv` is from 2013-2024.
+* `this_year_predictions.csv` was created on pre-tournament data from 2025 and is 100% accurate.
 
 ## Requirements
 `pandas
@@ -24,7 +26,7 @@ Same as historical but without POSTSEASON.
 * Model accuracy metrics on historical data
 * Feature importance visualization
 * Top 68 teams most likely to make the tournament
-* Full predictions in 'this_year_predictions.csv'
+* Full predictions in `this_year_predictions.csv`
 ## Model Performance
 The Random Forest model evaluates its performance on a 20% test split of historical data, providing:
 * Accuracy score
