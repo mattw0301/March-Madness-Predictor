@@ -7,10 +7,6 @@ Built using `scikit-learn` and a Random Forest classifier, this tool allows you 
 - Train a model on historical data (`cbb.csv`)
 - Predict tournament qualification for the current season (`this_year_cbb.csv`)
 
-Provided Data: 
-* `cbb.csv` is from 2013-2024.
-* `this_year_predictions.csv` was created on pre-tournament data from 2025 and is 100% accurate.
-
 ## Requirements
 `pandas
 numpy
