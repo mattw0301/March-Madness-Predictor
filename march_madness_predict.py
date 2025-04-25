@@ -32,7 +32,7 @@ def train_model(historical_csv):
     df['MADE_NCAA'] = df['POSTSEASON'].apply(made_tournament)
     
     # Drop columns we don't want as features
-    # (TEAM, CONF, POSTSEASON, YEAR — optional if they exist)
+    # (TEAM, CONF, POSTSEASON, YEAR — if they exist)
     df.drop(['TEAM', 'CONF', 'POSTSEASON', 'YEAR'], axis=1, inplace=True, errors='ignore')
     
     # Extract features and target
@@ -55,7 +55,7 @@ def train_model(historical_csv):
     print("[INFO] Classification Report (historical test set):")
     print(classification_report(y_test, y_pred))
     
-    # (Optional) View Feature Importances
+    # View Feature Importances
     importances = rf.feature_importances_
     feature_names = X.columns
     indices = np.argsort(importances)[::-1]
@@ -141,7 +141,7 @@ def main():
               f"Predicted_Made_NCAA={row['PREDICTED_MADE_NCAA']} "
               f"(Prob={row['PREDICTED_PROB']:.2f})")
     
-    # Optionally save the full results to a CSV
+    # Save the full results to a CSV
     this_year_results.to_csv("this_year_predictions.csv", index=False)
     print("\n[INFO] Full predictions saved to 'this_year_predictions.csv'.")
 
