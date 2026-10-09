@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import train_test_split
+
 from sklearn.metrics import accuracy_score, classification_report
 
 def made_tournament(postseason):
@@ -26,23 +26,26 @@ def train_model(historical_csv):
     """
     # Load historical data
     df = pd.read_csv(historical_csv)
-    df.fillna(0, inplace=True)
+    num_cols = df.select_dtypes(include='number').columns
+    df[num_cols] = df[num_cols].fillna(0)
     
     # Create binary target
     df['MADE_NCAA'] = df['POSTSEASON'].apply(made_tournament)
-    
+
+    # Split by season before dropping YEAR
+    train_df = df[df['YEAR'] < df['YEAR'].max()]
+    test_df  = df[df['YEAR'] == df['YEAR'].max()]
+
     # Drop columns we don't want as features
-    # (TEAM, CONF, POSTSEASON, YEAR — if they exist)
-    df.drop(['TEAM', 'CONF', 'POSTSEASON', 'YEAR'], axis=1, inplace=True, errors='ignore')
-    
+    drop_cols = ['TEAM', 'CONF', 'POSTSEASON', 'YEAR', 'SEED']
+    train_df = train_df.drop(drop_cols, axis=1, errors='ignore')
+    test_df  = test_df.drop(drop_cols, axis=1, errors='ignore')
+
     # Extract features and target
-    X = df.drop('MADE_NCAA', axis=1)
-    y = df['MADE_NCAA']
-    
-    # Train/test split to evaluate
-    X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.2, random_state=42, stratify=y
-    )
+    X_train = train_df.drop('MADE_NCAA', axis=1)
+    y_train = train_df['MADE_NCAA']
+    X_test  = test_df.drop('MADE_NCAA', axis=1)
+    y_test  = test_df['MADE_NCAA']
     
     # Train Random Forest
     rf = RandomForestClassifier(n_estimators=100, random_state=42)
@@ -50,14 +53,21 @@ def train_model(historical_csv):
     
     # Evaluate
     y_pred = rf.predict(X_test)
+    y_proba = rf.predict_proba(X_test)[:, 1]
     acc = accuracy_score(y_test, y_pred)
     print(f"[INFO] Historical test accuracy: {acc:.3f}")
     print("[INFO] Classification Report (historical test set):")
     print(classification_report(y_test, y_pred))
+
+    # Top-68 overlap: rank by predicted probability, take top 68, count actual tournament teams
+    top68_idx = np.argsort(y_proba)[::-1][:68]
+    top68_actual = y_test.iloc[top68_idx].sum()
+    real_field = y_test.sum()
+    print(f"[INFO] Top-68 overlap: picked {top68_actual} of {real_field} actual tournament teams")
     
     # View Feature Importances
     importances = rf.feature_importances_
-    feature_names = X.columns
+    feature_names = X_train.columns
     indices = np.argsort(importances)[::-1]
     sorted_importances = importances[indices]
     sorted_names = [feature_names[i] for i in indices]
@@ -69,7 +79,7 @@ def train_model(historical_csv):
     plt.tight_layout()
     plt.show()
     
-    return rf, X.columns
+    return rf, X_train.columns
 
 def predict_this_year(model, new_csv, training_columns):
     """
